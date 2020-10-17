@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lavawerk.test.helloalertfgs">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name=".HelloApp"
+        android:allowBackup="false"
+        android:label="HelloAlertFGS"
+        android:supportsRtl="false"
+        tools:ignore="MissingApplicationIcon">
+        <receiver
+            android:name=".CmdReceiver"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.lavawerk.test.helloalertfgs.START" />
+                <action android:name="com.lavawerk.test.helloalertfgs.STOP" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".FGService" />
+    </application>
+
+</manifest>
