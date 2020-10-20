@@ -36,7 +36,7 @@ public class FGService extends Service {
             final String action = intent.getAction();
             Log.d(TAG, "FGService.receiver.onReceive");
             Log.d(TAG, "Intent: " + action);
-            if (intent.hasExtra(Intent.EXTRA_KEY_EVENT)) {
+            if (intent.hasExtra(Intent.EXTRA_KEY_EVENT)) { //FIXME SOS_DOWN does not have extras!
                 KeyEvent keyEvent = (KeyEvent) intent.getExtras().get(Intent.EXTRA_KEY_EVENT);
                 if (keyEvent != null) {
                     long keyTime = keyEvent.getEventTime();
