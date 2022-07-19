@@ -7,7 +7,6 @@
 
     <application
         android:name=".HelloApp"
-        android:allowBackup="false"
         android:label="HelloAlertFGS"
         android:supportsRtl="false"
         tools:ignore="MissingApplicationIcon">
