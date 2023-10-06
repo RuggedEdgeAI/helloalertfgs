@@ -1,0 +1,98 @@
+PS C:\Users\hab> adb logcat -s HELLO
+--------- beginning of main
+10-06 14:17:50.649 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:17:50.649 22950 22950 D HELLO   : Intent: android.intent.action.PTT.down
+10-06 14:17:50.650 22950 22950 D HELLO   : Delay: 8
+10-06 14:18:38.651 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:18:38.651 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:18:38.651 22950 22950 D HELLO   : Delay: 6
+10-06 14:18:39.843 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:18:39.843 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:18:39.844 22950 22950 D HELLO   : Delay: 6
+10-06 14:18:42.723 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:18:42.723 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:18:42.724 22950 22950 D HELLO   : Delay: 6
+10-06 14:18:43.537 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:18:43.537 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:18:43.538 22950 22950 D HELLO   : Delay: 4
+10-06 14:18:44.133 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:18:44.133 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:18:44.134 22950 22950 D HELLO   : Delay: 4
+10-06 14:18:44.482 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:18:44.482 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:18:44.483 22950 22950 D HELLO   : Delay: 5
+10-06 14:18:47.398 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:18:47.398 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:18:47.398 22950 22950 D HELLO   : Delay: 5
+10-06 14:18:50.517 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:18:50.518 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:18:50.518 22950 22950 D HELLO   : Delay: 24
+10-06 14:18:53.535 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:18:53.535 22950 22950 D HELLO   : Intent: android.intent.action.PTT.down
+10-06 14:18:53.535 22950 22950 D HELLO   : Delay: 6
+10-06 14:18:54.213 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:18:54.214 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:18:54.214 22950 22950 D HELLO   : Delay: 4
+10-06 14:18:55.203 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:18:55.203 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:18:55.204 22950 22950 D HELLO   : Delay: 6
+10-06 14:18:56.186 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:18:56.187 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:18:56.187 22950 22950 D HELLO   : Delay: 6
+10-06 14:18:57.001 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:18:57.001 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:18:57.002 22950 22950 D HELLO   : Delay: 4
+10-06 14:18:57.439 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:18:57.439 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:18:57.439 22950 22950 D HELLO   : Delay: 6
+10-06 14:18:58.409 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:18:58.410 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:18:58.410 22950 22950 D HELLO   : Delay: 5
+10-06 14:18:59.390 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:18:59.390 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:18:59.390 22950 22950 D HELLO   : Delay: 5
+10-06 14:19:00.867 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:19:00.867 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:19:00.867 22950 22950 D HELLO   : Delay: 6
+10-06 14:19:01.217 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:19:01.218 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:19:01.218 22950 22950 D HELLO   : Delay: 5
+10-06 14:19:02.056 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:19:02.056 22950 22950 D HELLO   : Intent: android.intent.action.PTT.down
+10-06 14:19:02.057 22950 22950 D HELLO   : Delay: 7
+10-06 14:19:04.131 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:19:04.132 22950 22950 D HELLO   : Intent: android.intent.action.PTT.down
+10-06 14:19:04.132 22950 22950 D HELLO   : Delay: 6
+10-06 14:19:04.253 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:19:04.253 22950 22950 D HELLO   : Intent: android.intent.action.PTT.down
+10-06 14:19:04.254 22950 22950 D HELLO   : Delay: 4
+10-06 14:19:04.450 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:19:04.450 22950 22950 D HELLO   : Intent: android.intent.action.PTT.down
+10-06 14:19:04.450 22950 22950 D HELLO   : Delay: 5
+10-06 14:19:04.694 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:19:04.694 22950 22950 D HELLO   : Intent: android.intent.action.PTT.down
+10-06 14:19:04.694 22950 22950 D HELLO   : Delay: 5
+10-06 14:19:04.921 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:19:04.921 22950 22950 D HELLO   : Intent: android.intent.action.PTT.down
+10-06 14:19:04.922 22950 22950 D HELLO   : Delay: 4
+10-06 14:19:05.123 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:19:05.123 22950 22950 D HELLO   : Intent: android.intent.action.PTT.down
+10-06 14:19:05.124 22950 22950 D HELLO   : Delay: 6
+10-06 14:19:05.310 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:19:05.310 22950 22950 D HELLO   : Intent: android.intent.action.PTT.down
+10-06 14:19:05.311 22950 22950 D HELLO   : Delay: 5
+10-06 14:19:05.502 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:19:05.502 22950 22950 D HELLO   : Intent: android.intent.action.PTT.down
+10-06 14:19:05.503 22950 22950 D HELLO   : Delay: 5
+10-06 14:19:05.874 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:19:05.874 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:19:05.874 22950 22950 D HELLO   : Delay: 5
+10-06 14:19:06.829 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:19:06.829 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:19:06.829 22950 22950 D HELLO   : Delay: 4
+10-06 14:19:07.229 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:19:07.229 22950 22950 D HELLO   : Intent: android.intent.action.sos.down
+10-06 14:19:07.230 22950 22950 D HELLO   : Delay: 4
+10-06 14:19:07.682 22950 22950 D HELLO   : FGService.receiver.onReceive
+10-06 14:19:07.682 22950 22950 D HELLO   : Intent: android.intent.action.PTT.down
+10-06 14:19:07.682 22950 22950 D HELLO   : Delay: 5

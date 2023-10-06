@@ -4,6 +4,13 @@
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
+    <!--
+  Notice: Requires you to manually enable this permission by going to:
+  Settings > Apps > Special app access > Display over other apps
+  and enable this permission for HelloAlert application.
+ -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
     <application
         android:name=".HelloApp"
         android:label="HelloAlertFGS"
@@ -20,7 +27,11 @@
             </intent-filter>
         </receiver>
 
-        <service android:name=".FGService" />
+        <service
+            android:name=".FGService"
+            android:exported="true">
+        </service>
+
     </application>
 
 </manifest>
