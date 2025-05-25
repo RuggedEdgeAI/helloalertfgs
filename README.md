@@ -1,6 +1,6 @@
 # HelloAlertFGS
 
-Sample app for ISM Push to Talk/SOS intents using a foreground service.
+Sample app for ISM Push to Talk/SOS intents using a foreground service on the RuggedWatch.
 
 To start it, use following `adb` command:
 
